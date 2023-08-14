@@ -223,7 +223,7 @@ nav ul li a:hover::after {
   }
 
   .header {
-    font-family: Arial, sans-serif;
+    font-family: "Brush Script MT", cursive;
     font-size: 30px;
     margin-bottom: 20px;
   }
@@ -318,20 +318,113 @@ nav ul li a:hover::after {
         font-size: 20px;
     }
 
-    .item {
-        width: 100%; 
+    .fixed-menu {
+        padding: 5px;
     }
 
-    .item-image {
-        width: 40px;
-        height: 40px;
+    nav ul li a {
+        font-size: 16px;
     }
 
-    .item-title {
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-title {
+        font-size: 18px;
+    }
+
+    .profile-text {
         font-size: 14px;
     }
 
+    .list {
+        justify-content: center;
+    }
+
+    .item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .item-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .item-title {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
     .item-text {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .extra-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .extra-title {
+        font-size: 18px;
+    }
+
+    .extra-text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .carousel-slide-item .image-title {
+        font-size: 16px;
+        padding: 3px 5px;
+        border: 1px solid #000;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .buttons a {
+        font-size: 16px;
+        padding: 3px 8px;
+        margin-left: 5px;
+    }
+
+    .sub-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .sub-line {
+        font-size: 14px;
+        margin: 3px 0;
+    }
+
+    .sub-button {
+        font-size: 14px;
+        padding: 3px 8px;
+        margin-top: 5px;
+    }
+
+    .sub-row .sub-container {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 5px;
     }
 }
